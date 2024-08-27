@@ -1,7 +1,6 @@
 baseURL = 'https://dustinsmith.net/'
 languageCode = 'en-us'
 title = 'Dustin Smith'
-theme = 'lynx'
 
 [params.author]
   # name = "Dustin Smith"
