@@ -57,7 +57,7 @@ jobs:
           TZ: America/Los_Angeles
         run: |
           hugo \
-            -c dustinsmith.net/ \
+            -c dustinsmith.net/config/ \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
