@@ -10,6 +10,7 @@ disableKinds = ["taxonomy", "term"]
   image = "dls.jpg"
   links = [
      { email = "mailto:mail@dustinsmith.net" },
+     { calendar = { href = "https://cal.com/dustinsmith", text = "Meet with me" } },
      { github = "https://github.com/dustinloflandsmith" },
      { gitlab = "https://gitlab.com/dustinloflandsmith" }, 
      { linkedin = "https://linkedin.com/in/dustinloflandsmith" },
