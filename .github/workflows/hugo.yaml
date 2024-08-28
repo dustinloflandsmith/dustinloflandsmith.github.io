@@ -57,7 +57,7 @@ jobs:
           TZ: America/Los_Angeles
         run: |
           hugo \
-            --config config.toml \
+            --config /dustinsmith/config.toml \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"          
